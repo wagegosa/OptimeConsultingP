@@ -1,0 +1,8 @@
+/**
+ * Ampliar la altura de la ventana modal.
+ * Original: max-height: calc(100vh - 210px);
+ */
+.modal-body {
+    max-height: calc(100vh - 10px);
+    overflow-y: auto;
+}

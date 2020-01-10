@@ -1,0 +1,19 @@
+/*
+.form-control {
+	width: 95%;
+}
+*/
+
+body {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.marco {
+    border: thin solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    /*	padding-left: 40px;*/
+    margin: 10px;
+    background: #fbfbfb;
+}

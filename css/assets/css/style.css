@@ -1,0 +1,244 @@
+/*!
+ *
+ *	Project:	CLUB-FITNESS
+ *	Author:		Luis Eduardo Galindo Villanueva
+ *	Twitter:	@luisedoknox
+ *
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+audio:not([controls]) {
+    display: none
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+a:hover,
+a:active {
+    outline: 0
+}
+
+sub,
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    -ms-interpolation-mode: bicubic
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Bd';
+    src: url('../fonts/2E96C3_0_0.eot');
+    src: url('../fonts/2E96C3_0_0-.eot#iefix') format('embedded-opentype'), url('../fonts/2E96C3_0_0.woff2') format('woff2'), url('../fonts/2E96C3_0_0.woff') format('woff'), url('../fonts/2E96C3_0_0.ttf') format('truetype'), url('../fonts/2E96C3_0_0.svg#wf') format('svg')
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Roman';
+    src: url('../fonts/2E96C3_1_0.eot');
+    src: url('../fonts/2E96C3_1_0-.eot#iefix') format('embedded-opentype'), url('../fonts/2E96C3_1_0.woff2') format('woff2'), url('../fonts/2E96C3_1_0.woff') format('woff'), url('../fonts/2E96C3_1_0.ttf') format('truetype'), url('../fonts/2E96C3_1_0.svg#wf') format('svg')
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT-Thin';
+    src: url('../fonts/2E96C3_2_0.eot');
+    src: url('../fonts/2E96C3_2_0-.eot#iefix') format('embedded-opentype'), url('../fonts/2E96C3_2_0.woff2') format('woff2'), url('../fonts/2E96C3_2_0.woff') format('woff'), url('../fonts/2E96C3_2_0.ttf') format('truetype'), url('../fonts/2E96C3_2_0.svg#wf') format('svg')
+}
+
+p {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    font-size: 1.4pxrem;
+    line-height: 21px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    text-rendering: optimizelegibility
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.2em;
+    font-family: HelveticaNeueLTStd-Bd, 'HelveticaNeueLTStd-Bd', 'Helvetica Neue', Helvetica, 'Arial CE', Arial, sans-serif;
+    color: #1a1a1a
+}
+
+h2 {
+    margin: 0 0 14px 0;
+    font-size: 21px;
+    font-size: 2.1rem;
+    line-height: 1.2em;
+    font-family: HelveticaNeueLTStd-Bd, 'HelveticaNeueLTStd-Bd', 'Helvetica Neue', Helvetica, 'Arial CE', Arial, sans-serif;
+    color: #1a1a1a
+}
+
+h2 span {
+    color: #bc2328
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin-bottom: 0
+}
+
+ul {
+    list-style: none
+}
+
+ol {
+    list-style: none
+}
+
+dl {
+    margin-bottom: 0
+}
+
+hr {
+    margin: 0;
+    border: 0
+}
+
+strong {
+    font-family: HelveticaNeueLTStd-Bd, 'HelveticaNeueLTStd-Bd', 'Helvetica Neue', Helvetica, 'Arial CE', Arial, sans-serif;
+    font-weight: normal
+}
+
+em {
+    font-style: italic
+}
+
+abbr {
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #ddd;
+    cursor: help
+}
+
+small {
+    font-size: 100%
+}
+
+cite {
+    font-style: normal
+}

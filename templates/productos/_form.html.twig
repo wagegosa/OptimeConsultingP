@@ -1,0 +1,5 @@
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button class="btn btn-primary btn-primary">{{ button_label|default('Guardar') }}</button>
+    <a href="{{ path('productos_index') }}" class="btn btn-primary btn-danger"></span> Cancelar</a>
+{{ form_end(form) }}

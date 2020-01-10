@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Categorias{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Nueva Categorias</h1>
+            <ol class="breadcrumb">
+                <li><a href="">Inicio </a></li>/
+                <li><a href="{{ path('categorias_index') }}">Categorias </a></li>/
+                <li class="active">Listado de Categorias</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        {{ include('categorias/_form.html.twig') }}
+    </div>
+</div>
+{% endblock %}
