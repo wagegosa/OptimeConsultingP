@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Products{% endblock %}
+
+{% block body %}
+<div class="container">
+    <!-- Titulo y Menu -->
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Ver Productos</h1>
+        <ol class="breadcrumb">
+          <li><a href="">Inicio </a></li>/
+          <li><a href="{{ path('products_index') }}">Productos </a></li>/
+          <li class="active">Listado de Productos/li>
+        </ol>
+      </div>
+    </div>
+    <!-- editar -->
+    <div class="row">
+      <div class="col-md-11">
+        <span></span>
+      </div>
+      <div class="col-md-1">
+        <a href="{{ path('products_edit', {'id': product.id}) }}" class="btn btn-sm btn-warning"><span class="glyphicon glyphicon-pencil"></span> Editar</a>
+      </div>
+    </div>
+    <!-- Formulario -->
+    <!-- Numero -->
+    <div class="row">
+      <div class="col-md-4">
+        <label for="Nombre">Código:</label>
+      </div>
+      <div class="col-md-8">
+        <label for="Nombre">{{ product.code }}</label>
+        <span class="help-block" id="error"></span>
+      </div>
+    </div>
+    <!-- Nombre -->
+    <div class="row">
+      <div class="col-md-4">
+        <label for="Nombre">Nombre:</label>
+      </div>
+      <div class="col-md-8">
+        <label for="Nombre">{{ product.name }}</label>
+      </div>
+    </div>
+    <!-- Descripción -->
+    <div class="row">
+      <div class="col-md-4">
+        <label for="Nombre">Descripción:</label>
+      </div>
+      <div class="col-md-8">
+        <label for="Nombre">{{ product.decryption }}</label>
+      </div>
+    </div>
+    <!-- Marca -->
+    <div class="row">
+      <div class="col-md-4">
+        <label for="Nombre">Activo:</label>
+      </div>
+      <div class="col-md-8">
+        <label for="Nombre">{{ product.brand }}</label>
+      </div>
+    </div>
+    <!-- categoria -->
+    <div class="row">
+        <div class="col-md-4">
+          <label for="Nombre">Activo:</label>
+        </div>
+        <div class="col-md-8">
+          <label for="Nombre">{{ product.Category }}</label>
+        </div>
+      </div>
+    <!-- Precio -->
+    <div class="row">
+        <div class="col-md-4">
+          <label for="Nombre">Activo:</label>
+        </div>
+        <div class="col-md-8">
+          <label for="Nombre">{{ product.price }}</label>
+        </div>
+      </div>
+    <!-- Botones -->
+    <div class="row">
+      <div class="col-md-8"> 
+        {{ include('products/_delete_form.html.twig') }}
+      </div>
+    </div>
+  </div>
+{% endblock %}

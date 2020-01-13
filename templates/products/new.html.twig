@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Products{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Nuevo Producto</h1>
+            <ol class="breadcrumb">
+                <li><a href="">Inicio </a></li>/
+                <li><a href="{{ path('products_index') }}">productos </a></li>/
+                <li class="active">Listado de productos</li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        {{ include('products/_form.html.twig') }}
+    </div>
+</div>
+{% endblock %}
